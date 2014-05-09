@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>fileTypes</key>
+  <array>
+    <string>jag</string>
+    <string>jaggery.conf</string>
+  </array>
+  <key>foldingStartMarker</key>
+  <string>/\*\*|\{\s*$</string>
+  <key>foldingStopMarker</key>
+  <string>\*\*/|^\s*\}</string>
+  <key>keyEquivalent</key>
+  <string>^~J</string>
+  <key>name</key>
+  <string>Jaggery JS (jag)</string>
+  <key>patterns</key>
+  <array>
+    <dict>
+      <key>include</key>
+      <string>text.html.basic</string>
+    </dict>
+  </array>
+  <key>scopeName</key>
+  <string>source.jag</string>
+  <key>uuid</key>
+  <string>DCA5KBS5-H4I7-KAA6-JFA2-Y5A9T5HFI1LF</string>
+</dict>
+</plist>
