@@ -12,7 +12,7 @@
   <key>foldingStopMarker</key>
   <string>\*\*/|^\s*\}</string>
   <key>name</key>
-  <string>Jaggery JS (jag)</string>
+  <string>Jaggery jag (jag)</string>
   <key>patterns</key>
   <array>
 
@@ -63,7 +63,7 @@
                 </dict>
               </dict>
               <key>name</key>
-              <string>string.quoted.single.js</string>
+              <string>string.quoted.single.jag</string>
               <key>patterns</key>
               <array>
                 <dict>
@@ -97,7 +97,7 @@
                 </dict>
               </dict>
               <key>name</key>
-              <string>string.quoted.double.js</string>
+              <string>string.quoted.double.jag</string>
               <key>patterns</key>
               <array>
                 <dict>
@@ -134,13 +134,13 @@
                 <key>0</key>
                 <dict>
                   <key>name</key>
-                  <string>punctuation.definition.comment.js</string>
+                  <string>punctuation.definition.comment.jag</string>
                 </dict>
               </dict>
               <key>end</key>
               <string>\*/</string>
               <key>name</key>
-              <string>comment.block.js</string>
+              <string>comment.block.jag</string>
             </dict>
 
             <dict>
