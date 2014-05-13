@@ -3,9 +3,10 @@
 
   "completions":
   [
-    "jaggeryjs-core",
     { "trigger": "get", "contents": "get( ${1:url} ,${2:data}, ${3:headers}, ${4:type}, ${5:success(data, xhr)} );" },
-    { "trigger": "post", "contents": "post( ${1:url} ,${2:data}, ${3:headers}, ${4:type}, ${5:success(data, xhr)} );" }
+    { "trigger": "post", "contents": "post( ${1:url} ,${2:data}, ${3:headers}, ${4:type}, ${5:success(data, xhr)} );" },
+    { "trigger": "put", "contents": "put( ${1:url} ,${2:data}, ${3:headers}, ${4:type}, ${5:success(data, xhr)} );" },
+    { "trigger": "del", "contents": "del( ${1:url} ,${2:data}, ${3:headers}, ${4:type}, ${5:success(data, xhr)} );" }
     
   ]
 }
