@@ -9,8 +9,10 @@ Jaggery is a framework to write webapps and HTTP-focused web services for all as
 
 Package Includes
 --------------------------
-*Snippets
-*Code Completion
+- Syntax highlighting
+- Snippets
+- Code Completion
+- jaggery.conf generation
 
 ## Installation ##
 
