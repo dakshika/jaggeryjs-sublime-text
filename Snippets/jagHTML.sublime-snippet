@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>${1:Hello Jaggery}</title>
+  <link rel="stylesheet" href="${2:css/styles.css}">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<%
+${3://your jaggery code goes here}
+%>
+</body>
+</html>
+		]]></content>
+	<tabTrigger>jagHTML5</tabTrigger>
+	<description>Jaggery HTML5 Basic</description>
+	<scope>source.jag</scope>
+</snippet>
