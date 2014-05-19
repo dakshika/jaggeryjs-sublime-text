@@ -52,8 +52,8 @@ If you haven't got Package Control installed you will need to make a clone of th
 - <code>jagXMLHTTP</code> : functionality of server side XML HTTP communication.
 - <code>jagDB</code> : Database Object used to connect to a relational database.
 - <code>jagSender</code> : Add-on object allows users to send out email from their apps.
-- <code>jagOauth</code> : OAuthProvider api act as an oauth client for accessing resources protected by OAuth.
-- <code>jagOauthRequest</code> : OAuthRequest snippets. 
+- <code>jagOauth</code> : Add-on OAuthProvider api act as an oauth client for accessing resources protected by OAuth.
+- <code>jagOauthRequest</code> : Add-on OAuthRequest snippets. 
 - <code>jagProcess</code> : Add-on allows to access to externally defined properties and environment variables.
 - <code>jagi18n</code> : Add-on provides the ability to internationalize text in webapps.
 
