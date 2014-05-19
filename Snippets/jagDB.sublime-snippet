@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+var db = new Database("${1:connectionUrl}", "${2:username}", "${3:password}");
+ 
+db.query("${4:INSERT INTO demo VALUES('WSO2','59 Flower Rd'), ('WSO2 UK', 'Emsworth, Hampshire, UK');}");
+ 
+var result = db.query("${5:SELECT * FROM demo}");
+ 
+print(result);
+		]]></content>
+	<tabTrigger>jagDB</tabTrigger>
+	<description>Jaggery Database</description>
+	<scope>source.jag</scope>
+</snippet>
