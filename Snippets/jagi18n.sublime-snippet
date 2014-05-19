@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+var i18n = require("i18n");
+i18n.init(request);
+
+print(i18n.localize("greetings.local", "Greetings from Jaggery"));
+		]]></content>
+	<tabTrigger>jagi18n</tabTrigger>
+	<description>Jaggery Internationalization</description>
+	<scope>source.jag</scope>
+</snippet>
