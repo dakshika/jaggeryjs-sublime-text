@@ -18,14 +18,40 @@ Package Includes
 
 ### With Package Control ###
 
-If you have the [Package Control][package_control] package installed, you can install jaggeryjs package from inside Sublime Text itself. Open the Command Palette and select "Package Control: Install Package", then search for Codeigniter framework Snippets.
+If you have the [Package Control][package_control] package installed, you can install jaggeryjs package from inside Sublime Text itself. Open the Command Palette(<code>ctrl+shift+p</code> or <code>⌘+shift+p</code>) and select "Package Control: Install Package", then search for **Jaggeryjs** .
 
 ### Without Package Control ###
 
 If you haven't got Package Control installed you will need to make a clone of this repository into your packages folder, like so:
 
-    git clone https://github.com/dakshika/jaggeryjs-sublime-text jaggeryjs-sublime-text
+    git clone https://github.com/dakshika/jaggeryjs-sublime-text jaggeryjs
 
+#### For Linux:
+
+	$ cd ~/.config/sublime-text-2/Packages/
+	$ git clone https://github.com/dakshika/jaggeryjs-sublime-text jaggeryjs
+
+#### For OSX
+
+	$ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+	$ git clone https://github.com/dakshika/jaggeryjs-sublime-text jaggeryjs
+
+#### For Windows
+
+	$ cd %APPDATA%/Sublime Text 2/Packages/
+	$ git clone https://github.com/dakshika/jaggeryjs-sublime-text jaggeryjs
+	
+## Snippets Short Codes ##
+----------------------------------------
+
+- <code>jagHTML5</code> : HTML5 page template for Jaggery.
+- <code>jag</code> : escaping characters for Jaggery. 
+- <code>jagprint</code> :  escaping characters for print out server-side data.
+- <code>jagconf</code> : configuration file specifies the application specific configurations.
+- <code>jagXMLHTTP</code> : functionality of server side XML HTTP communication.
+- <code>jagSender</code> : Add-on object allows users to send out email from their apps.
+- <code>jagProcess</code> : Add-on allows to access to externally defined properties and environment variables.
+- <code>jagi18n</code> : Add-on provides the ability to internationalize text in webapps.
 
 [sublime]: http://www.sublimetext.com/
 [package_control]: http://wbond.net/sublime_packages/package_control
