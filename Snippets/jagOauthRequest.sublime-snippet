@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+var accessToken = linkedin.getAccessToken("${1:3741501}");
+var response = linkedin.sendOAuthRequest(${2:accessToken}, "${3:GET}", "${4:http://api.linkedin.com/v1/groups/59053/posts?count=20&start=1&format=json}");
+print(response.getBody()); 
+		]]></content>
+	<tabTrigger>jagOauthRequest</tabTrigger>
+	<description>Jaggery Oauth Request</description>
+	<scope>source.jag</scope>
+</snippet>
