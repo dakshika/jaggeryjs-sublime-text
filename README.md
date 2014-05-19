@@ -24,23 +24,24 @@ If you have the [Package Control][package_control] package installed, you can in
 
 If you haven't got Package Control installed you will need to make a clone of this repository into your packages folder, like so:
 
-    git clone https://github.com/dakshika/jaggeryjs-sublime-text jaggeryjs
+    git clone https://github.com/dakshika/jaggeryjs-sublime-text.git jaggeryjs
 
 #### For Linux:
 
 	$ cd ~/.config/sublime-text-2/Packages/
-	$ git clone https://github.com/dakshika/jaggeryjs-sublime-text jaggeryjs
+	$ git clone https://github.com/dakshika/jaggeryjs-sublime-text.git jaggeryjs
 
 #### For OSX
 
 	$ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-	$ git clone https://github.com/dakshika/jaggeryjs-sublime-text jaggeryjs
+	$ git clone https://github.com/dakshika/jaggeryjs-sublime-text.git jaggeryjs
 
 #### For Windows
 
 	$ cd %APPDATA%/Sublime Text 2/Packages/
-	$ git clone https://github.com/dakshika/jaggeryjs-sublime-text jaggeryjs
+	$ git clone https://github.com/dakshika/jaggeryjs-sublime-text.git jaggeryjs
 	
+
 ## Snippets Short Codes ##
 ----------------------------------------
 
@@ -49,11 +50,19 @@ If you haven't got Package Control installed you will need to make a clone of th
 - <code>jagprint</code> :  escaping characters for print out server-side data.
 - <code>jagconf</code> : configuration file specifies the application specific configurations.
 - <code>jagXMLHTTP</code> : functionality of server side XML HTTP communication.
+- <code>jagDB</code> : Database Object used to connect to a relational database.
 - <code>jagSender</code> : Add-on object allows users to send out email from their apps.
+- <code>jagOauth</code> : OAuthProvider api act as an oauth client for accessing resources protected by OAuth.
+- <code>jagOauthRequest</code> : OAuthRequest snippets. 
 - <code>jagProcess</code> : Add-on allows to access to externally defined properties and environment variables.
 - <code>jagi18n</code> : Add-on provides the ability to internationalize text in webapps.
 
 [sublime]: http://www.sublimetext.com/
 [package_control]: http://wbond.net/sublime_packages/package_control
+
+## Screenshot ##
+============================================
+
+![Alt text](http://3.bp.blogspot.com/-4-jMKpWEc0c/U3qSkehthsI/AAAAAAAAAvs/pF-VLCAdXqk/s1600/screenshot001.gif "Jaggeryjs Sublime Text")
 
 If you find error or whatever just fork it and send me a pull request.
