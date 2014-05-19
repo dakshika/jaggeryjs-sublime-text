@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+var process = require("process");
+print(process.getEnv("JAVA_HOME")); 
+		]]></content>
+	<tabTrigger>jagProcess</tabTrigger>
+	<description>Jaggery Process</description>
+	<scope>source.jag</scope>
+</snippet>
