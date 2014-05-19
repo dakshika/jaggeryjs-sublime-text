@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+ var url = '${1:url}'; 
+ var xhr = new XMLHttpRequest();
+ xhr.open("${2:GET|POST}", url);
+ xhr.setRequestHeader("${3:name}" , "${4:value}");
+ xhr.send();
+ 
+ print("ReadyState : "+xhr.readyState);
+ print("<br>ResponseStatus : "+xhr.status);
+ print("<br>ResponseText : "+xhr.responseText);
+		]]></content>
+	<tabTrigger>jagXMLHTTP</tabTrigger>
+	<description>Jaggery XMLHTTP Request</description>
+	<scope>source.jag</scope>
+</snippet>
