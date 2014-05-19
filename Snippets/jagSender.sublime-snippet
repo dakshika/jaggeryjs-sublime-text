@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+var content = request.getParameter("${1:content}");
+var to = request.getParameter("${2:to}");
+var subject = request.getParameter("${3:subject}");
+	
+var email = require('email');
+var sender = new email.Sender("${4:host}", "${5:port}", "${6:username}", "${7:password}", "${8:<optional:tls>}");
+	
+sender.from = "${9:from}";
+sender.to = to;
+sender.cc = "${10:cc}";
+sender.bcc = "${11:bcc}";
+sender.subject = subject;
+sender.text = content;
+sender.send();
+	
+print("email successfully sent to " + to);
+		]]></content>
+	<tabTrigger>jagSender</tabTrigger>
+	<description>Jaggery Email Sender</description>
+	<scope>source.jag</scope>
+</snippet>
