@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+<![CDATA[
+<%
+  //add your jaggeryjs code here
+
+%>]]>
+    </content>
+	<tabTrigger>jag</tabTrigger>
+	<description>Jaggery escaping characters</description>
+	<scope>source.jag</scope>
+</snippet>
