@@ -61,7 +61,7 @@ If you haven't got Package Control installed you will need to make a clone of th
 [package_control]: http://wbond.net/sublime_packages/package_control
 
 ## Screenshot ##
-============================================
+--------------------------
 
 ![Alt text](http://3.bp.blogspot.com/-4-jMKpWEc0c/U3qSkehthsI/AAAAAAAAAvs/pF-VLCAdXqk/s1600/screenshot001.gif "Jaggeryjs Sublime Text")
 
