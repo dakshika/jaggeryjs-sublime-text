@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+<%=${1:printvariable}%>]]>
+    </content>
+	<tabTrigger>jagprint</tabTrigger>
+	<description>Jaggery escape char - print</description>
+	<scope>source.jag</scope>
+</snippet>
