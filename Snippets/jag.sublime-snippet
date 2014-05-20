@@ -2,7 +2,7 @@
 	<content>
 <![CDATA[
 <%
-  //add your jaggeryjs code here
+  ${1://add your jaggeryjs code here}
 
 %>]]>
     </content>
